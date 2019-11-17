@@ -27,7 +27,7 @@ release:
   env:
     HEROKU_API_KEY: ${{ secrets.HEROKU_API_KEY }}
     HEROKU_EMAIL: ${{ secrets.HEROKU_EMAIL }}
-    HEROKU_APP_NAME: "<your_name>-chula-cicd"
+    HEROKU_APP_NAME: "<your_heroku_app_name>-chula-cicd"
   steps:
     - name: Checkout current repository
       uses: actions/checkout@v1
